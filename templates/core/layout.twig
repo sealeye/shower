@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <title>{{ title | default("Shower") }}</title>
+  {% block styles %}{% endblock %}
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="" >
+  {% block body %}{% endblock %}
+  <script src="js/scripts.js"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

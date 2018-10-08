@@ -41,10 +41,14 @@
     "gulp-zip": "^4.0.0",
     "merge-stream": "^1.0.0",
     "path-exists-cli": "^1.0.0",
-    "shower-cli": "^0.2.3"
+    "shower-cli": "^0.2.3",
+    "gulp-twig": "^0.7.0",
+    "path": "^0.12.7"
   },
   "scripts": {
+    "live": "gulp live",
     "pdf": "shower pdf",
+    "twig": "gulp twig",
     "start": "gulp serve",
     "prepare": "gulp prepare",
     "archive": "gulp archive",
